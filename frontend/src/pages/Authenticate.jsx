@@ -14,11 +14,6 @@ const Authenticate = () => {
 
     <div className="AuthenticatePage">
 
-        <div className="auth-navbar">
-          <h3 onClick={()=> navigate('/')} >SB Works</h3>
-          <p onClick={()=> navigate('/')} >Home</p>
-        </div>
-
         {authType==='login' ?
         <>
             <Login setAuthType={setAuthType} />
